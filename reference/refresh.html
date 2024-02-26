@@ -101,7 +101,9 @@ By default this is the <code>"TRfull"</code> or <code>"RSAfull"</code> specifica
 <dt>end</dt>
 <dd><p>specifies the date from which outliers will be re-identified (i.e.: re-detected) when <code>policy = "Outliers"</code>
 or <code>policy = "Outliers_StochasticComponent"</code>, defined as an array of two elements: year and first period.
-If not specified, outliers will be re-identified on the whole series.</p></dd>
+If not specified, outliers will be re-identified on the whole series.
+Span definition: <code>period</code>, <code>start</code> and <code>end</code> have to be specified only when <code>policy = "Outliers"</code>
+or <code>policy = "Outliers_StochasticComponent"</code>.</p></dd>
 
 </dl></div>
     <div class="section level2">
