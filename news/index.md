@@ -1,6 +1,6 @@
 # Changelog
 
-## rjd3tramoseats 3.5.2.9000
+## rjd3tramoseats 3.6.0.9000
 
 All notable changes to this project will be documented in this file.
 
@@ -8,7 +8,24 @@ The format is based on [Keep a
 Changelog](https://keepachangelog.com/en/1.1.0/), and this project
 adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-### [Unreleased](https://github.com/rjdverse/rjd3tramoseats/compare/v3.5.2...HEAD)
+### [Unreleased](https://github.com/rjdverse/rjd3tramoseats/compare/v3.6.0...HEAD)
+
+#### Added
+
+- Classes to
+  [`tramoseats_dictionary()`](https://rjdverse.github.io/rjd3tramoseats/reference/tramoseats_dictionary.md)
+  and
+  [`tramoseats_full_dictionary()`](https://rjdverse.github.io/rjd3tramoseats/reference/tramoseats_full_dictionary.md)
+
+### [3.6.0](https://github.com/rjdverse/rjd3tramoseats/compare/v3.5.2...v3.6.0) - 2025-11-21
+
+#### Added
+
+- Documentation of `Complete` refresh policy
+
+#### Changed
+
+- New JARS
 
 ### [3.5.2](https://github.com/rjdverse/rjd3tramoseats/compare/v3.5.1...v3.5.2) - 2025-06-17
 
