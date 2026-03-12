@@ -95,13 +95,13 @@ set_seats(
   character: the estimation method for the unobserved components. The
   choice can be made from:
 
-  - `"Burman"`: the default value. May result in a significant
-    underestimation of the components' standard deviation, as it may
-    become numerically unstable when some roots of the MA polynomial are
-    near 1;
+  1.  **Burman**: the default value. May result in a significant
+      underestimation of the components' standard deviation, as it may
+      become numerically unstable when some roots of the MA polynomial
+      are near 1;
 
-  - `"KalmanSmoother"`: it is not disturbed by the (quasi-) unit roots
-    in MA;
+  2.  **KalmanSmoother**: it is not disturbed by the (quasi-) unit roots
+      in MA.
 
 - bias:
 
@@ -123,6 +123,7 @@ online documentation: <https://jdemetra-new-documentation.netlify.app/>
 ## Examples
 
 ``` r
+if (FALSE) { # rjd3toolkit::get_java_version() >= rjd3toolkit::minimal_java_version
 init_spec <- tramoseats_spec("rsafull")
 new_spec <- set_seats(init_spec,
     approximation = "Legacy",
@@ -133,5 +134,8 @@ new_spec <- set_seats(init_spec,
     bias = TRUE
 )
 y <- rjd3toolkit::ABS$X0.2.09.10.M
+# \donttest{
 sa <- tramoseats(y, spec = new_spec)
+# }
+}
 ```
