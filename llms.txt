@@ -45,6 +45,7 @@ a configuration in R is explained
 To install it, just launch the following command line:
 
 ``` r
+
 install.packages("rjd3tramoseats")
 ```
 
@@ -52,6 +53,7 @@ To get the current development version of **{rjd3tramoseats}** from
 [GitHub](https://github.com/) with:
 
 ``` r
+
 # install.packages("remotes")
 remotes::install_github("rjdverse/rjd3tramoseats")
 ```
@@ -61,6 +63,7 @@ remotes::install_github("rjdverse/rjd3tramoseats")
 ### Seasonal Adjustment with Tramo-Seats
 
 ``` r
+
 library("rjd3tramoseats")
 y <- rjd3toolkit::ABS$X0.2.09.10.M
 ts_model <- tramoseats(y)
