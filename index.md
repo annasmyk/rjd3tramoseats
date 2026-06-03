@@ -20,13 +20,25 @@ or
 [`rjd3tramoseats::tramoseats_spec()`](https://rjdverse.github.io/rjd3tramoseats/reference/tramoseats_spec.md)
 and modified with the following functions:
 
-- for pre-processing: `rjd3tramoseats::set_arima()`,
-  `rjd3tramoseats::set_automodel()`, `rjd3tramoseats::set_basic()`,
-  `rjd3tramoseats::set_easter()`, `rjd3tramoseats::set_estimate()`,
-  `rjd3tramoseats::set_outlier()`, `rjd3tramoseats::set_tradingdays()`,
-  `rjd3tramoseats::set_transform()`, `rjd3tramoseats::add_outlier()`,
-  `rjd3tramoseats::remove_outlier()`, `rjd3tramoseats::add_ramp()`,
-  `rjd3tramoseats::remove_ramp()`, `rjd3tramoseats::add_usrdefvar()`;
+- for pre-processing:
+  [`rjd3toolkit::set_arima()`](https://rjdverse.github.io/rjd3toolkit/reference/set_arima.html),
+  [`rjd3toolkit::set_automodel()`](https://rjdverse.github.io/rjd3toolkit/reference/set_automodel.html),
+  [`rjd3toolkit::set_basic()`](https://rjdverse.github.io/rjd3toolkit/reference/set_basic.html),
+  [`rjd3toolkit::set_easter()`](https://rjdverse.github.io/rjd3toolkit/reference/set_easter.html),
+  [`rjd3toolkit::set_estimate()`](https://rjdverse.github.io/rjd3toolkit/reference/set_estimate.html),
+  [`rjd3toolkit::set_outlier()`](https://rjdverse.github.io/rjd3toolkit/reference/set_outlier.html),
+  [`rjd3toolkit::set_tradingdays()`](https://rjdverse.github.io/rjd3toolkit/reference/set_tradingdays.html),
+  [`rjd3toolkit::set_transform()`](https://rjdverse.github.io/rjd3toolkit/reference/set_transform.html),
+  [`rjd3toolkit::add_outlier()`](https://rjdverse.github.io/rjd3toolkit/reference/add_outlier.html),
+  [`rjd3toolkit::remove_outlier()`](https://rjdverse.github.io/rjd3toolkit/reference/add_outlier.html),
+  [`rjd3toolkit::add_ramp()`](https://rjdverse.github.io/rjd3toolkit/reference/add_outlier.html),
+  [`rjd3toolkit::remove_ramp()`](https://rjdverse.github.io/rjd3toolkit/reference/add_outlier.html),
+  [`rjd3toolkit::add_usrdefvar()`](https://rjdverse.github.io/rjd3toolkit/reference/add_usrdefvar.html);
+
+- for decomposition: `rjd3x13::set_x11()`;
+
+- for benchmarking:
+  [`rjd3toolkit::set_benchmarking()`](https://rjdverse.github.io/rjd3toolkit/reference/set_benchmarking.html).
 
 - for decomposition:
   [`rjd3tramoseats::set_seats()`](https://rjdverse.github.io/rjd3tramoseats/reference/set_seats.md);
