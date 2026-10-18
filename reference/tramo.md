@@ -51,7 +51,7 @@ only returns the results.
 ## Examples
 
 ``` r
-if (FALSE) { # rjd3toolkit::get_java_version() >= rjd3toolkit::minimal_java_version
+if (FALSE) { # rjd3jars::check_java_version(silent = TRUE)
 library("rjd3toolkit")
 
 y <- rjd3toolkit::ABS$X0.2.09.10.M
@@ -71,10 +71,9 @@ sp <- set_transform(
 )
 # \donttest{
 tramo_fast(y, spec = sp)
-# }
+
 sp <- set_outlier(sp, outliers.type = c("AO"))
 
-# \donttest{
 tramo_fast(y, spec = sp)
 # }
 }

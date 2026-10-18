@@ -88,7 +88,7 @@ set_seats(
 
   numeric: the number of backasts (`bcasts`) or forecasts (`fcasts`)
   used in the decomposition in periods (positive values) or years
-  (negative values). Default `bcasts` = 0. Default `fcasts` = 0.
+  (negative values). Default `bcasts` = 0. Default `fcasts` = -2.
 
 - algorithm:
 
@@ -127,7 +127,7 @@ online documentation: <https://jdemetra-new-documentation.netlify.app/>
 ## Examples
 
 ``` r
-if (FALSE) { # rjd3toolkit::get_java_version() >= rjd3toolkit::minimal_java_version
+if (FALSE) { # rjd3jars::check_java_version(silent = TRUE)
 init_spec <- tramoseats_spec("rsafull")
 new_spec <- set_seats(init_spec,
     approximation = "Legacy",
